@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Noto Kufi Arabic', sans-serif;
+   
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+.nav-item{
+    text-align: left;
+}
+.navbar-toggler{
+    border: none;
+}
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(142,206,239,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+  }
+  /* end of nav bar--------------------------------------------------------------------------*/
+  .wrapper .row>div{
+      height: 500px;
+      
+
+  }
+  .col-sm-5 img{
+      width: 100%;
+      height: 100%;
+  }
+  .col-sm-7{
+      background-image: url(../imgs/header1-side.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      left:0px;
+  }
+  .col-sm-7 h1{
+      margin-top:10% ;
+  }
+  .container #text>div,.wrapper3 .row{
+      height:100px;
+      margin-top: 5%;
+  }
+  hr{
+    border: 1px solid rgba(142,206,239,1);
+    width: 6%;
+}
+/*من نحن----------------------------------------------------------------------------------------------*/
+#secondRow>div{
+    height: 600px;
+  
+}
+.col-sm-6 p{ 
+    margin-top:10%;
+    padding:20px;
+    font-size:18px;
+    font-weight:400;
+    line-height:3rem;
+    
+  }
+ 
+
+  .owl-carousel{
+      position: relative;
+      
+      background-image: url(../imgs/we-offer.png);
+      height: 753px;
+      margin: 0px;
+      padding:12%;
+      padding-top:7%;
+      padding-bottom: 5%;
+  }
+  .owl-prev ,.owl-next{
+      width:20px;
+      font-weight: bolder;
+   
+  }
+
+  .owl-carousel .card{
+    margin-right:5% ;
+    border-radius: 20px;
+    
+
+ 
+  }
+  .owl-carousel .card img{
+      margin-right:20%;
+      margin-left: 10%;
+      margin-top: 5%;
+     
+
+    
+}
+/* end of carousel-------------------------------------------------------------------------*/
+.card-title{
+    color: rgba(142,206,239,1);
+}
+/*بعض اعمالنا---------------------------------------------------------------------------*/
+.ourWorks{
+    position: relative;
+    margin-top:100px;
+}
+.secondRow{
+    position: absolute;
+    background-image: url(../imgs/bg30-Ar1web.gif);
+
+    height: auto;
+    padding:0px;
+    padding-top:7%;
+    padding-bottom:0px;
+}
+
+.ourWorks .card{
+    
+    margin-top:2%;
+    margin-right:7%;
+    border-radius: 20px;
+    
+    
+
+ 
+  }
+.ourWorks .card img{
+   
+    width:100%;
+    height:70%;
+    margin: 0px;
+    border-radius: 20px;
+
+}
+.btn-dark{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.owl-next:focus, .owl-prev:focus {
+    outline: none!important;
+}
+
+
+  
+  
+  
+
+ 
