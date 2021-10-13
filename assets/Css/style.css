@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:'Noto Kufi Arabic', sans-serif;
+    font-family:'cairo', sans-serif;
    
 }
 
@@ -43,6 +43,7 @@
   hr{
     border: 1px solid rgba(142,206,239,1);
     width: 6%;
+    margin: auto;
 }
 /*من نحن----------------------------------------------------------------------------------------------*/
 #secondRow>div{
@@ -60,8 +61,7 @@
  
 
   .owl-carousel{
-      position: relative;
-      
+ 
       background-image: url(../imgs/we-offer.png);
       height: 753px;
       margin: 0px;
@@ -69,10 +69,12 @@
       padding-top:7%;
       padding-bottom: 5%;
   }
-  .owl-prev ,.owl-next{
-      width:20px;
-      font-weight: bolder;
-   
+ .owl-prev ,.owl-next{
+      width:40px!important;
+      font-size: 30px!important;
+      margin: auto!important;
+      margin-top: 5%!important;
+         
   }
 
   .owl-carousel .card{
@@ -96,24 +98,25 @@
 }
 /*بعض اعمالنا---------------------------------------------------------------------------*/
 .ourWorks{
-    position: relative;
     margin-top:100px;
+   
 }
 .secondRow{
-    position: absolute;
     background-image: url(../imgs/bg30-Ar1web.gif);
-
-    height: auto;
+    height:auto;
     padding:0px;
     padding-top:7%;
-    padding-bottom:0px;
+    padding-bottom:10px;
+
 }
 
 .ourWorks .card{
+    margin: auto;
     
     margin-top:2%;
-    margin-right:7%;
+    margin-right:4%;
     border-radius: 20px;
+   
     
     
 
@@ -135,6 +138,113 @@
 .owl-next:focus, .owl-prev:focus {
     outline: none!important;
 }
+/*article----------------------------------------------------------*/
+.article{
+    margin-bottom: 100px;
+    margin-top:100px;
+    height:auto;
+}
+.article .container-fluid{
+    height:auto;
+    margin-top:100px; 
+}
+.article .container-fluid .row{
+    text-align: center;
+   
+}
+.article .container-fluid .row .card{
+    margin: auto; 
+    margin-top:5px;
+    border-radius: 20px;
+   
+}
+.article .container-fluid .row .card img{
+    border-radius: 20px;
+
+}
+.article .container-fluid .row .card  button{
+    margin-left:250px;
+}
+/*OWEL CAROUSEL   CLIENTS------------------------------------*/
+.client{
+    height:auto;
+
+}
+.client .container-fluid .row{
+    height:75px;
+}
+.client .container-fluid .owl-carousel{
+    height:400px;
+    background-image: url(../imgs/our-client-bg.jpg);
+    background-repeat: no-repeat;
+    
+}
+.client .container-fluid .owl-carousel img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius:20px ;
+
+}
+/*----------------------------------FOOTER-----------------------------------------*/
+.page-footer{
+    height:auto;
+    background-image: url(../imgs/footer.jpg);
+    background-repeat: no-repeat;
+}
+.page-footer .container-fluid{
+  
+}
+.page-footer .container-fluid .row{
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+
+.page-footer .container-fluid .row .col-sm-12{
+    background-color: white;
+    width:30%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.page-footer .container-fluid .row .col-sm-2,.page-footer .container-fluid .row .col-sm-4{
+    margin: auto;
+}
+.page-footer .container-fluid .row .col-sm-2 img{
+    width:80px;
+}
+.page-footer .container-fluid .row .col-sm-4 p,h5{
+    color: white;
+    margin-right:-380px;
+
+}
+.page-footer .container-fluid .row .col-sm-4 h5{
+    margin-right: -510px;
+}
+.page-footer .container-fluid .row .col-sm-4 p{
+    font-size: 14px;
+}
+.page-footer .container-fluid .row .col-sm-6 img{
+    height:300px;
+
+    
+}
+.page-footer .container-fluid .row .col-sm-4 h5{
+    color: white;
+    margin-top:0px;
+  
+    
+}
+ 
+
+
+
+
+
 
 
   
