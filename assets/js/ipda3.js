@@ -1,10 +1,12 @@
 $(document).ready(function(){
     var one = $("#one");
     var two = $("#two");
+ 
     one.owlCarousel({
     loop:true,
     margin:5,
     rtl:true,
+    nav:true,
     responsiveClass:true,
     responsive:{
         0:{
@@ -18,7 +20,7 @@ $(document).ready(function(){
         1000:{
             items:3,
             nav:true,
-            loop:false
+            loop:true
         }
     }
     }
@@ -40,11 +42,15 @@ $(document).ready(function(){
             1000:{
                 items:4,
                 nav:true,
-                loop:false
+                loop:true
             }
         }
         }
         );
+      
+     
+
 
 }
 );
+

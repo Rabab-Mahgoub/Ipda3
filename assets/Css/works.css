@@ -1,0 +1,71 @@
+.ourWorks{
+    margin-top: 0px;
+    background-image: url(../imgs/bg30-Ar1web.gif);
+
+}
+
+  h1{
+      text-align: right;
+     
+  }
+  .h{
+      margin-top: 0px;
+      margin-left: 40px;
+      display: inline;
+    
+    
+      
+  }
+  hr{ 
+    border: 1px solid rgba(142,206,239,1);
+    background-color:rgba(142,206,239,1) ;
+    height:50px;
+    width:3px; 
+    margin: 0px;      
+}
+.article .container-fluid{
+    background-image: url(../imgs/articles.jpg);
+    background-position: top;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.details .col-sm-12{
+   
+}
+.details img{
+    
+    width:400px;
+   
+}
+.hi-slide{
+    position: relative;
+    height:292px;
+    width: 754;
+    margin: 115px, auto ,0;
+
+}
+.hi-slide .hi-prev, .hi-slide .hi-next{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: all 0.7s;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hi-slid >ul{
+    list-style: none;
+    position: relative;
+    height:292px;
+    width: 754;
+    margin: 0px;
+    padding: 0px;
+
+}
